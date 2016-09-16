@@ -31,6 +31,6 @@ export class events {
 
 export class TruncateValueConverter {
   toView(value) {
-    return value && value.substring(0, 42);
+    return value && value.substring(0, 40);
   }
 }
