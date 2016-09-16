@@ -1,0 +1,24 @@
+<template>
+  <require from="blur-image"></require>
+
+  <section class="au-animate">
+      <div class="container">
+        <h2>${heading}</h2>
+        <div class="row au-stagger">
+            <div class="col-sm-6 col-md-4 card-container au-animate" repeat.for="event of events">
+                <div class="card">
+                    <!--<google-map class="header-bg" latitude="${event.latlong.split(', ')[0]}" longitude="${event.latlong.split(', ')[1]}" zoom="14"></google-map>-->
+                    <div class="header-bg cm-gold"></div>
+                    <div class="avatar">
+                        <img src="http://communitymegaphone.com/images/megaphone_trns.png" ref="image"/>
+                    </div>
+                    <div class="content">
+                        <p class="name">${event.title | truncate}</p>
+                        <p><a target="_blank" class="btn btn-default" href.bind="event.eventUrl">Event Info</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+</template>
