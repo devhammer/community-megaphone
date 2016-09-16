@@ -18,6 +18,7 @@ module.exports = {
         "aurelia-framework",
         "aurelia-bootstrapper",
         "aurelia-fetch-client",
+        "aurelia-google-maps",
         "aurelia-router",
         "aurelia-animator-css",
         "aurelia-templating-binding",
@@ -29,6 +30,7 @@ module.exports = {
         "aurelia-logging-console",
         "bootstrap",
         "bootstrap/css/bootstrap.css!text",
+        "text",
         "fetch",
         "jquery"
       ],
