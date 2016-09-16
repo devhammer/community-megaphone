@@ -1,6 +1,8 @@
-# aurelia-skeleton-navigation (typescript)
+# Community Megaphone (typescript)
 
 ## Running The App
+
+This prototype of Community Megaphone uses the Aurelia Skeleton Navigation app. The instructions below are verbatim from that app.
 
 To run the app, follow these steps.
 
