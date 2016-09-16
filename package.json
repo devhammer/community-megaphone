@@ -1,5 +1,5 @@
 {
-  "name": "aurelia-skeleton-navigation-typescript",
+  "name": "community-megaphone",
   "version": "1.0.0",
   "description": "A starter kit for building a standard navigation-style app with Aurelia and TypeScript.",
   "keywords": [
@@ -9,16 +9,12 @@
     "typescript",
     "vscode"
   ],
-  "homepage": "http://aurelia.io",
-  "bugs": {
-    "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
-  },
   "license": "CC0-1.0",
-  "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
+  "author": "G. Andrew Duthie <devhammer@live.com> (http://devhammer.net/)",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-navigation-typescript"
+    "url": "http://github.com/aurelia/community-megaphone"
   },
   "scripts": {
     "prepublish": "./node_modules/.bin/typings install",
