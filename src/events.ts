@@ -31,6 +31,9 @@ export class events {
 
 export class TruncateValueConverter {
   toView(value) {
-    return value && value.substring(0, 40);
+    //naive truncation logic
+    // would be nice to make this smart about word breaks
+    // and add ellipses
+    return value && value.substring(0, 75);
   }
 }
