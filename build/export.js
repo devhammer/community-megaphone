@@ -10,6 +10,8 @@ module.exports = {
     "jspm_packages/npm/bluebird@3.4.1/js/browser/bluebird.min.js",
     "jspm_packages/npm/aurelia-google-maps@1.0.14/google-maps.html", 
     "jspm_packages/npm/aurelia-google-maps@1.0.14/maps.css",
+    "jspm_packages/npm/font-awesome@4.6.3/fonts/fontawesome-webfont.woff",
+    "jspm_packages/npm/font-awesome@4.6.3/fonts/fontawesome-webfont.woff2",
     'jspm_packages/system.js',
     'jspm_packages/system-polyfills.js',
     'jspm_packages/system-csp-production.js',
