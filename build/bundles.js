@@ -32,7 +32,8 @@ module.exports = {
         "bootstrap/css/bootstrap.css!text",
         "text",
         "fetch",
-        "jquery"
+        "jquery",
+        "moment"
       ],
       "options": {
         "inject": true,

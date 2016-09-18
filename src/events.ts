@@ -2,9 +2,11 @@ import {autoinject} from 'aurelia-framework';
 import {HttpClient} from 'aurelia-fetch-client';
 import 'fetch';
 
+import * as Moment from 'moment';
+
 @autoinject
 export class events {
-  heading = 'Community Megaphone Events';
+  heading = 'Upcoming Events';
   events = [];
 
   constructor(private http: HttpClient) {
@@ -35,5 +37,12 @@ export class TruncateValueConverter {
     // would be nice to make this smart about word breaks
     // and add ellipses
     return value && value.substring(0, 75);
+  }
+}
+
+export class FriendlyDateValueConverter {
+  toView(value) {
+    var friendlyDate = Moment(value);
+    return friendlyDate.format('MMMM Do YYYY, h:mm:ss a');
   }
 }

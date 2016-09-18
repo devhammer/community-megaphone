@@ -15,6 +15,9 @@
                     <div class="content">
                         <p class="name">${event.title | truncate}</p>
                         <p><a target="_blank" class="btn btn-default" href.bind="event.eventUrl">Event Site</a></p>
+                        <div>
+                            <p>Starts: ${event.starttime | friendlyDate}</p>
+                        </div>
                     </div>
                 </div>
             </div>
