@@ -33,6 +33,7 @@ System.config({
     "fetch": "github:github/fetch@1.0.0",
     "font-awesome": "npm:font-awesome@4.6.3",
     "jquery": "npm:jquery@2.2.4",
+    "moment": "npm:moment@2.15.0",
     "text": "github:systemjs/plugin-text@0.0.8",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -221,6 +222,7 @@ System.config({
     "events.js": [
       "aurelia-framework",
       "aurelia-fetch-client",
+      "moment",
       "fetch"
     ],
     "main.js": [
@@ -338,7 +340,9 @@ System.config({
       "npm:aurelia-templating@1.1.0.js",
       "npm:aurelia-templating@1.1.0/aurelia-templating.js",
       "npm:jquery@2.2.4.js",
-      "npm:jquery@2.2.4/dist/jquery.js"
+      "npm:jquery@2.2.4/dist/jquery.js",
+      "npm:moment@2.15.0.js",
+      "npm:moment@2.15.0/moment.js"
     ]
   }
 });
