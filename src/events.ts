@@ -17,14 +17,14 @@ export class events {
             'accept': 'application/json'
           }
         })
-        .withBaseUrl('http://communitymegaphone.com/ws/CMEventDS.svc/');
+        .withBaseUrl('http://cmegapi.azurewebsites.net/');
     });
   }
 
   activate() {
-    return this.http.fetch('ApprovedEvents')
+    return this.http.fetch('Events?$expand=Location')
       .then(response => response.json())
-      .then(events => this.events = events.d)
+      .then(events => this.events = events.value)
       .catch(error => {
         alert('Error displaying events: ' + error);
       });
